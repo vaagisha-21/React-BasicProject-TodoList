@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height: 100vh;
+  background-color: #3b3b3b;
+}
+
+.container{
+    background-color:rgba(255, 255, 255, 0.1);
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 1.8em 3.7em rgba(66, 60, 12, 0.2);
+    backdrop-filter: blur(10px);
+}
